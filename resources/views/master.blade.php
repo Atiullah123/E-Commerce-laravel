@@ -17,6 +17,7 @@
 <body>
     {{View::make('header')}}
     @yield('content')
+    <hr>
     {{View::make('footer')}}
 
 
@@ -28,6 +29,44 @@
         height: 600px;
         padding-top:100px;
 
+    }
+     .custom-product{
+        height: 600px;
+        /* padding-top:100px; */
+
+    }
+    img.slider-img
+    {
+        height: 400px !important
+    }
+    .slider-text
+    {
+        background-color: #9bac9b96 !important
+    }
+    img.trending-image
+    {
+        height: 100px;
+    }
+    .trending-item
+    {
+        float: left;
+        width: 20%;
+    }
+    .trending-wrapper
+    {
+        margin: 30px;
+    }
+    img.detail-image
+    {
+        height: 150px;
+    }
+    .detail
+    {
+        height: 600px;
+    }
+    .search-box
+    {
+        width: 500px !important
     }
 </style>
 </html>
